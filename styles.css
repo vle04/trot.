@@ -1,0 +1,320 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+/* ACTUAL STYLES HERE */
+
+
+
+
+.main_page{
+display:flex;
+}
+
+
+
+
+.website_title {
+width: 135.53px;
+height: 50.042px;
+flex-shrink: 0;
+color: #0E191D;
+margin-top: 35.16px;
+margin-left: 46.95px;
+
+
+
+
+/* h1 */
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+.filter_section {
+width: 308px;
+height: 329px;
+margin-top: 20px;
+margin-left: 46.95px;
+border-radius: 8px;
+border: 1px;
+padding-left: 25.05px;
+padding-right: 25.05px;
+padding-top: 20.49px;
+padding-bottom: 20.49px;
+flex-shrink: 0;
+border: 1px solid #5E9EA0;
+background: #FFF;
+}
+
+
+
+
+.filter_title {
+color: #0E191D;
+text-align: left;
+width: 80.825px;
+height: 24.698px;
+flex-shrink: 0;
+
+
+
+
+/* h2 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+
+.type, .field, .professor {
+width: 55.889px;
+height: 21.292px;
+flex-shrink: 0;
+color: #0E191D;
+
+
+
+
+/* h3 */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+
+.type_box, .field_box, .professor_box {
+width: 300px;
+height: 30px;
+border: 1px solid #999;
+font-family: Montserrat;
+font-size: 18px;
+color: #B9B9B9;
+background-color: #eee;
+border-radius: 5px;
+}
+
+
+
+
+.navigation{
+color: #0E191D;
+
+
+
+
+/* h3 */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: right;
+margin-right:30px;
+}
+
+
+
+
+.results_section{
+/* background-color: #5E9EA0; */
+margin: 10px;
+width: 70vw; /* vw is viewport width */
+height: 80vh; /* vh is viewport height */
+}
+
+
+
+
+.results_title{
+color: #0E191D;
+
+
+
+
+/* h2 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 22px;
+}
+
+
+
+
+.result_row1, .result_row2{
+display:flex;
+/* This is what is responsible for there being 2 rows in the results */
+flex-wrap: wrap;
+width: 100%;
+}
+
+
+
+
+.result_profile1, .result_profile2, .result_profile3, .result_profile4{
+width: 195.569px;
+height: 278.496px;
+flex-shrink: 0;
+/* flex-direction:row; */
+
+
+
+
+border-radius: 8px;
+border: 1px solid #5E9EA0;
+background: #FFF;
+margin-left: 20px;
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+
+.profile_title{
+color: #000;
+
+
+
+
+text-align: center;
+/* h5 */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+
+.profile_info{
+display: flex;
+width: 156px;
+height: 90px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+
+
+
+color: #B9B9B9;
+
+
+
+
+text-align: center;
+/* h6 */
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left:19px;
+}
+
+
+
+
+.profile_tags{
+display: flex;
+width: 158px;
+height: 69px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+
+
+
+color: #B9B9B9;
+
+
+
+
+text-align: center;
+/* h6 */
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left:19px;
+}
+
+
+
+
+.image_section{
+/* display: flex; */
+width: 145px;
+height: 168px;
+/* flex-direction: column; */
+justify-content: center;
+/* flex-shrink: 0; */
+position: absolute;
+top: 68%;
+left: 7%;
+}
